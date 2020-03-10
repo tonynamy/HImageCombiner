@@ -1,6 +1,9 @@
 # HImageCombiner
 Horizontal Image Combiner written in python 3.7
 
+# Dependencies
+- pil
+
 # How to use
 
 1. Set input/output folder
@@ -9,8 +12,8 @@ Horizontal Image Combiner written in python 3.7
 
 2. Set filename regex
 - Regex string should contain two groups, and each should be named as <filenum> and <imagenum>.  
-  For example, you can use  ```(?P<filenum>\d+)-(?P<imagenum>\d+)``` which indicates filenames like : <001-001>, <001-002>, <001-003> ...
-  filenum and imagenum MUST BE number
+- For example, you can use  ```(?P<filenum>\d+)-(?P<imagenum>\d+)``` which indicates filenames like : <001-001>, <001-002>, <001-003> ...
+- filenum and imagenum MUST BE number
   
 # Control flow
 
