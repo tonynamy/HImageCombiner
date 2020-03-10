@@ -8,11 +8,9 @@ Horizontal Image Combiner written in python 3.7
 - When using relative path, don't forget the root is <path-to-HImageCombiner>
 
 2. Set filename regex
-- regex should contain two groups, and each should be named as <filenum> and <imagenum>,
+- regex should contain two groups, and each should be named as <filenum> and <imagenum>
   
-  for example,
-  ```(?P<filenum>\d+)-(?P<imagenum>\d+)```
-  indicates filenames like : <001-001>, <001-002>, <001-003> ...
+  for example, you can use  ```(?P<filenum>\d+)-(?P<imagenum>\d+)``` which indicates filenames like : <001-001>, <001-002>, <001-003> ...
   
 # Control flow
 
